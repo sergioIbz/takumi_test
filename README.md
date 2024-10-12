@@ -1,16 +1,12 @@
 # takumi_test
 
-A new Flutter project.
+## Configuración inicial
 
-## Getting Started
+Para configurar el proyecto correctamente, sigue estos pasos:
 
-This project is a starting point for a Flutter application.
+1. Renombra el archivo `.env.template` a `.env`.
 
-A few resources to get you started if this is your first Flutter project:
+2. Abre el archivo `.env` y agrega tu clave de API en la siguiente línea:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   ```env
+   Api_Key=TU_API_KEY_AQUI
