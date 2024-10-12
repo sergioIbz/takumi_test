@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:takumi_test/domain/entities/news_entity.dart';
-import 'package:takumi_test/infrastructure/mappers/time_format.dart';
+
+import '../../../domain/entities/news_entity.dart';
+import '../../../infrastructure/mappers/time_format.dart';
 
 class NewsFullScreen extends StatelessWidget {
   static const name = 'news-full-screen';

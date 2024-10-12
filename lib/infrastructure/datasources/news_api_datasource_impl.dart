@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
-import 'package:takumi_test/infrastructure/mappers/news_mapper.dart';
-import 'package:takumi_test/infrastructure/models/news/news_response.dart';
 
 import '../../config/constants/environment.dart';
 import '../../domain/datasources/news_api_datasource.dart';
 import '../../domain/entities/news_entity.dart';
+import '../mappers/news_mapper.dart';
+import '../models/news/news_response.dart';
 
 class NewsApiDatasourceImpl implements NewsApiDatasource {
   final dio = Dio(

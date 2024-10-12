@@ -1,5 +1,5 @@
-import 'package:takumi_test/domain/entities/news_entity.dart';
-import 'package:takumi_test/infrastructure/models/news/news_news_api.dart';
+import '../../domain/entities/news_entity.dart';
+import '../models/news/news_news_api.dart';
 
 class NewsMapper {
   static NewsEntity newsApitoEntity(NewsNewsApi newsApi) {

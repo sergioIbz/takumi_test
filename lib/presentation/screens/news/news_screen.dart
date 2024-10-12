@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:takumi_test/presentation/providers/theme_provider/theme_provider.dart';
 
 import '../../providers/news/news_provider.dart';
+import '../../providers/theme_provider/theme_provider.dart';
 import '../../widgets/news/news_post.dart';
 
 class NewsScreen extends StatelessWidget {

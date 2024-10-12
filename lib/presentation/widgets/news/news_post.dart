@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:takumi_test/infrastructure/mappers/time_format.dart';
 
 import '../../../domain/entities/news_entity.dart';
+import '../../../infrastructure/mappers/time_format.dart';
 import '../../screens/news/news_full_screen.dart';
 
 class NewsPost extends StatelessWidget {

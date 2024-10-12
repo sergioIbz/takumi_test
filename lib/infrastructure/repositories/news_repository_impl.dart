@@ -1,6 +1,6 @@
-import 'package:takumi_test/domain/datasources/news_api_datasource.dart';
-import 'package:takumi_test/domain/entities/news_entity.dart';
-import 'package:takumi_test/domain/repositories/news_repository.dart';
+import '../../domain/datasources/news_api_datasource.dart';
+import '../../domain/entities/news_entity.dart';
+import '../../domain/repositories/news_repository.dart';
 
 class NewsRepositoryImpl extends NewsRepository {
   final NewsApiDatasource newsApiDatasource;

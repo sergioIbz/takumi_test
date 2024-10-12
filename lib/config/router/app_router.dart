@@ -1,7 +1,7 @@
 import 'package:go_router/go_router.dart';
-import 'package:takumi_test/domain/entities/news_entity.dart';
-import 'package:takumi_test/presentation/screens/news/news_full_screen.dart';
 
+import '../../domain/entities/news_entity.dart';
+import '../../presentation/screens/news/news_full_screen.dart';
 import '../../presentation/screens/news/news_screen.dart';
 
 final appRouter = GoRouter(

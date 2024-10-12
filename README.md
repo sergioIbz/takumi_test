@@ -9,4 +9,4 @@ Para configurar el proyecto correctamente, sigue estos pasos:
 2. Abre el archivo `.env` y agrega tu clave de API en la siguiente línea:
 
    ```env
-   Api_Key=TU_API_KEY_AQUI
+   API_KEY=TU_API_KEY_AQUI

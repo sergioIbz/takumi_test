@@ -1,6 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:takumi_test/domain/entities/news_entity.dart';
-import 'package:takumi_test/presentation/providers/news/news_repository_provider.dart';
+
+import '../../../domain/entities/news_entity.dart';
+import 'news_repository_provider.dart';
 
 final topHeadlinesNewsProvider =
     StateNotifierProvider<NewsNotifier, List<NewsEntity>>(
